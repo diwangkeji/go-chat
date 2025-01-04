@@ -66,7 +66,7 @@ $ go run ./cmd/lumenim temp migrate
 # 打开两个终端，分别运行下面两个命令
 
 $ go run ./cmd/lumenim http      # 本地启动 http 服务
-$ go run ./cmd/lumenim commet    # 本地启动 websocket 服务
+$ go run ./cmd/lumenim comet    # 本地启动 websocket 服务
 $ go run ./cmd/lumenim queue     # 启动异步队列
 $ go run ./cmd/lumenim cron      # 启动定时任务
 ```
